@@ -1,4 +1,4 @@
-# Matlab film dosimetry app development project by Sagar Ghimire
+# Matlab film dosimetry app development project by  ©SagarGhimire
 
 # App Interface 
   ## Main Interface 
