@@ -1,14 +1,23 @@
-function tMatrix = fn_MatTransfor(iMatrix, Translation)
-
-    Mat_size = size(iMatrix);
-    Mat_center = Mat_size * 0.5;
-    Translation = [Mat_center(2) Mat_center(1)] - Translation;
-    Translation = [1 0 Translation(1);
-                    0 1 Translation(2);
-                    0  0 1];
-   
-    tform = rigidtform2d(Translation);
-    followOutput = affineOutputView(size(iMatrix), tform, "BoundsStyle","CenterOutput");
-    tMatrix = imwarp(iMatrix, tform, "OutputView",followOutput );
-
+function tMatrix = fn_MatTransfor(iMatrix, SelectedPoint)
+    [rows, cols, channels] = size(iMatrix);
+    
+    % Calculate the current center of the image
+    ImageCenter = [cols / 2, rows / 2];
+    
+    % Calculate the translation vector to move the image center to the selected point
+    Translation = ( ImageCenter -SelectedPoint );
+    
+    % Create a 2-D rigid transformation object with translation only
+    tform = rigidtform2d(eye(2), Translation);
+    
+    % Define the output view with centered bounds
+    followOutput = affineOutputView([rows, cols], tform, "BoundsStyle", "CenterOutput");
+    
+    % Initialize the transformed matrix
+    tMatrix = zeros(size(iMatrix), 'like', iMatrix);
+    
+    % Apply the transformation to each channel individually
+    for ch = 1:channels
+        tMatrix(:, :, ch) = imwarp(iMatrix(:, :, ch), tform, "OutputView", followOutput);
+    end
 end

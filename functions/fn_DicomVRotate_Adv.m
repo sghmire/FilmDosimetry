@@ -1,16 +1,16 @@
 function rotateVolume= fn_DicomVRotate_Adv(RTDose, RotationCenter, Angle, NewCenter)
     Volume = squeeze(RTDose);    
 
-    % Translate to New Center
+    % 1. Translate to New Center
     translateToCenter = [1 0 0 -NewCenter(1);  
                          0 1 0  -NewCenter(2);
                          0 0 1 -NewCenter(3);
                          0 0 0 1];
 
-    % Rotations
+    % 2. Rotations
     rotationMatrix = getRotationMatrix(RotationCenter, Angle); 
 
-    % Translate back to original center
+    % 3. Translate back to original center
     translateBack = [1 0 0 NewCenter(1);  
                      0 1 0 NewCenter(2);
                      0 0 1 NewCenter(3);
