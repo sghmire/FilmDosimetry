@@ -11,8 +11,8 @@
 <p align="right">
   <h3>Calibration Tools</h3>
   Allows OD vs dose fitting of Red or Green channels to nth polynomial degree.
-  <img src="https://github.com/sghmire/FilmDosimetry/blob/main/MAIN_2.png" width="400" title="Calibration Tools">  
-  <img src="https://github.com/sghmire/FilmDosimetry/blob/main/MAIN_1.png" width="400" title="Calibration Tools">  
+  <img src="https://github.com/sghmire/FilmDosimetry/blob/main/MAIN_2.png" width="500" title="Calibration Tools">  
+  <img src="https://github.com/sghmire/FilmDosimetry/blob/main/MAIN_1.png" width="500" title="Calibration Tools">  
 </p>
 
 
