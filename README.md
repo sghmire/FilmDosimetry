@@ -1,6 +1,6 @@
 # Matlab film dosimetry app development project
 <p>
-  A complete end to end film dosimetry software from calibration curve generation, to gamma analysis and report printing. This software also includes other useful tools such as Jaw Size measurements, StarShots (Spoke shots) measurements, with more feature in the pipeline for the future.
+  A complete end to end film dosimetry software from calibration curve generation to gamma analysis and report printing. This software also includes other useful tools such as Jaw Size measurements, StarShots (Spoke shots) measurements, with more feature in the pipeline for the future.
 </p>
 
 <p align="right">
