@@ -1,6 +1,8 @@
 # Matlab film dosimetry app development project
-
-<p align="center">
+<p>
+  
+</p>
+<p align="right">
   <h3>Main Window</h3>
   <img src="https://github.com/sghmire/FilmDosimetry/blob/main/MAIN.png" width="500" title="Main Window">
   
