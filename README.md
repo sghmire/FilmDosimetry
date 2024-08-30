@@ -4,7 +4,7 @@
 </p>
 
 <p align="right">
-  <h3>Main Window</h3>
+  <h3>Main  App Window</h3>
   <img src="https://github.com/sghmire/FilmDosimetry/blob/main/MAIN.png" width="500" title="Main Window">
 </p>
 
