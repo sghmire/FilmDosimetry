@@ -32,7 +32,7 @@ FilmDosimetry
 <b> Profile comparision with gamma index analysis. </b>
 <img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_gammaanlsysi.png" width="800" title="Step1"> <br>
 
-<b> Report printing feature. </b>
+<b> Report printing feature. Sample of the report below! </b>
 <img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_reportprinting.png" width="800" title="Step1"> <br>
 
 </ul>
