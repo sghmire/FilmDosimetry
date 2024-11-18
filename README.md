@@ -1,42 +1,51 @@
-FilmDosimetry 
+# **FilmDosimetry**  
 
-<p align="left">
-  An end to end film dosimetry tool for radiation dose calibration, dicom dose import, profile analyis and gamma index analyis for radiochromic films. Offers single, dual or triple channel film dosimetry options for OD to dose conversion.
+<p align="center">
+  <b>An end-to-end film dosimetry tool</b><br>
+  For radiation dose calibration, DICOM dose import, profile analysis, and gamma index analysis for radiochromic films. Supports single, dual, or triple-channel film dosimetry for OD-to-dose conversion.
 </p>
 
-<p align="left">
+---
 
-
+## **Features**
+- **Advanced calibration curve generation**  
+  Easily generate robust calibration curves to convert optical density to dose.
   
-</p class="big">
+  ![Calibration Curve Generation](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/1_CalibrationCurveGeneration.png)
 
-<ul>
-<b> Advanced calibration curve generation tool. </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/1_CalibrationCurveGeneration.png" width="800" title="Step1"> <br>
+- **Polynomial fitting with multi-channel settings**  
+  Fit calibration data using polynomial models with flexible channel configurations.
+  
+  ![Polynomial Fitting](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/1_CalibrationCurveGeneration_fitting.png)
 
-<b> Polynomial fitting with multiple channel settings.  </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/1_CalibrationCurveGeneration_fitting.png" width="800" title="Step1"> <br>
+- **Spot check for fitting validation**  
+  Visualize and validate calibration fits with insightful data interpretation.
+  
+  ![Fitting Spot Check](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/1_CalibrationCurveGeneration_fitting_spotcheck.png)
 
-<b> Spot check of the fitting, with some data interpretation. </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/1_CalibrationCurveGeneration_fitting_spotcheck.png" width="800" title="Step1"> <br>
+- **Marker-based film alignment**  
+  Align films accurately using manual or auto-detection options, with centering support.
+  
+  ![Film Alignment](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_filmalignment.png)
 
-<b> Marker based film alignment with manual and auto detection options, plus film centering. </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_filmalignment.png" width="800" title="Step1"> <br>
+- **Film plane finder**  
+  Extract film planes from DICOM dose files using TPS coordinates like Eclipse.
+  
+  ![Film Plane Finder](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_FilmPlaneFinder.png)
 
-<b> Film plane finder from dicom dose files using TPS coordinate such as Eclipse. </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_FilmPlaneFinder.png" width="800" title="Step1"> <br>
+- **DICOM dose rotation for oblique film dosimetry**  
+  Correct dose files for oblique-angle dosimetry setups.
+  
+  ![Dose Rotation](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_doserotation.png)
 
-<b> Dicom dose rotation for oblique angle film dosimetry. </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_doserotation.png" width="800" title="Step1"> <br>
+- **Profile comparison with gamma index analysis**  
+  Perform detailed gamma index analysis for precise profile comparison.
+  
+  ![Gamma Analysis](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_gammaanlsysi.png)
 
-<b> Profile comparision with gamma index analysis. </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_gammaanlsysi.png" width="800" title="Step1"> <br>
+- **Report generation**  
+  Automatically generate and export comprehensive dosimetry reports.
+  
+  ![Report Sample](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_reportprinting.png)
 
-<b> Report printing feature. Sample of the report below! </b>
-<img src="https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_reportprinting.png" width="800" title="Step1"> <br>
-
-</ul>
-
-
-SGRGH 
-© 2024
+---
