@@ -1,8 +1,7 @@
 # **FilmDosimetry**  
 
 <p align="left">
-  <b>An end-to-end film dosimetry tool</b><br>
-  For radiation dose calibration, DICOM dose import, profile analysis, and gamma index analysis for radiochromic films. Supports single, dual, or triple-channel film dosimetry for OD-to-dose conversion.
+  An end-to-end film dosimetry tool for radiation dose calibration, DICOM dose import, profile analysis, and gamma index analysis for radiochromic films. Supports single, dual, or triple-channel film dosimetry for OD-to-dose conversion.
 </p>
 
 ---
