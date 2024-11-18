@@ -49,6 +49,6 @@
 
 ---
 
-<p align="center"> Developed with ❤️ by <b>SGRGH</b><br> © 2024 </p>
+<p align="center"> Developed by <b>SGRGH</b><br> © 2024 </p>
 
 
