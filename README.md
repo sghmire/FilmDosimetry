@@ -48,3 +48,7 @@
   ![Report Sample](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_reportprinting.png)
 
 ---
+
+<p align="center"> Developed with ❤️ by <b>SGRGH</b><br> © 2024 </p>
+
+
