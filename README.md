@@ -1,6 +1,6 @@
 # **FilmDosimetry**  
 
-<p align="center">
+<p align="right">
   <b>An end-to-end film dosimetry tool</b><br>
   For radiation dose calibration, DICOM dose import, profile analysis, and gamma index analysis for radiochromic films. Supports single, dual, or triple-channel film dosimetry for OD-to-dose conversion.
 </p>
