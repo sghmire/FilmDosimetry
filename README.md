@@ -45,7 +45,7 @@
 - **Report generation**  
   Automatically generate and export comprehensive dosimetry reports.
   
-  ![Report Sample](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_reportprinting.png)
+  ![Report Sample](https://github.com/sghmire/FilmDosimetry/blob/main/FilmDosiScreen/2_MainScreen_reportprinting_1.png)
 
 ---
 
